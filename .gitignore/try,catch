@@ -1,0 +1,13 @@
+public class Solution {
+    public Solution() {
+    }
+
+    public static void main(String[] args) throws Exception {
+        try {
+            int var1 = 42 / 0;
+        } catch (ArithmeticException var2) {
+            System.out.print(var2);
+        }
+
+    }
+}
